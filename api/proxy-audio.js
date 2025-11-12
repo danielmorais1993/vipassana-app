@@ -1,10 +1,10 @@
-<<<<<<< HEAD
-module.exports = (req, res) => {
-  res.setHeader('Content-Type','text/plain');
-  res.setHeader('Access-Control-Allow-Origin','*');
-  res.statusCode = 200;
-  res.end('proxy-audio: OK');
-=======
+// <<<<<<< HEAD
+// module.exports = (req, res) => {
+//   res.setHeader('Content-Type','text/plain');
+//   res.setHeader('Access-Control-Allow-Origin','*');
+//   res.statusCode = 200;
+//   res.end('proxy-audio: OK');
+// =======
 // api/proxy-audio.js
 // Vercel serverless proxy for audio files.
 // - Forwards Range header (seeking)
@@ -107,5 +107,5 @@ module.exports = async (req, res) => {
     res.statusCode = 500;
     res.end('proxy error');
   }
->>>>>>> abaab32 (add proxy)
+// abaab32 (add proxy)
 };
